@@ -8,7 +8,9 @@
 html,body
 {
     width: 100%;
+    
 }
+
 
 #section{
     /* border: 2px solid red; */
@@ -17,19 +19,29 @@ html,body
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+
 }
 
-.headerinfo{
-    margin-left: 100px;
+.headerinfo{ 
+   margin-left: 800px;
     margin-top: 30px;
+    text-transform: capitalize;
+    color: purple;
+
 }
 
 #inputbox{
     padding: 8px;
     font-size: 14px;
     border-radius: 5px;
-    margin-left: 100px;
+    margin-left: 800px;
     margin-top: 30px;
+    font-size: 18px;
+    border:none;
+    border: 3px solid rgb(193, 100, 8);
+}
+input::placeholder{
+    color:darkgreen;
 }
 
 button{
@@ -38,13 +50,21 @@ button{
     border-radius: 5px;
     padding: 8px;
     border: none;
+    font-size: 19px;
+    margin-left: 20px;
+}
+button:active{
+color: rgb(43, 15, 203);
+background-color: chartreuse;
 }
 
 div{
     /* border: 2px solid red; */
     width: 300px;
     height: 300px;
+    
     margin-top: 30px;
+    border: 3px solid rgb(0, 255, 85);
 }
 
 div img{
